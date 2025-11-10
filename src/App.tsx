@@ -10,15 +10,15 @@ export const App: React.FC = () => (
   <div className="App">
     <h1>Dynamic list of Goods</h1>
 
-    <button type="button" data-cy="all-button">
+    <button type="button" data-cy="all-button" onClick ={() => {}}>
       Load all goods
     </button>
 
-    <button type="button" data-cy="first-five-button">
+    <button type="button" data-cy="first-five-button" onClick ={() => {}}>
       Load 5 first goods
     </button>
 
-    <button type="button" data-cy="red-button">
+    <button type="button" data-cy="red-button" onClick ={() => {}}>
       Load red goods
     </button>
 
